@@ -1,4 +1,4 @@
-#Aliaksander Huryn
+# Aliaksander Huryn
 
 ____
  ## Contact information
@@ -18,11 +18,11 @@ My goal is to become a **Front-end developer**, willing to learn and put knowled
 ## Skills
 
 ____
-###html 
+### html 
 
-###css
+### css
 
-###js(First level) 
+### js(First level) 
 
 ## Code example
 ____
@@ -37,18 +37,18 @@ const task1 = (num1, num2)=>{
   }
 }
 ```
-##Work experience
+## Work experience
 
 ____
 RS School Course "JavaScript/Front-end. Stage 0" `(in progress)`
 
-##Education
+## Education
 
 ____
 
 Belarusian State Technological University
 
-##Languages
+## Languages
 
 ____
 
