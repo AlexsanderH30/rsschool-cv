@@ -1,7 +1,7 @@
 # Aliaksander Huryn
 
 ____
- ## Contact information
+## Contact information
 
  ____
  *location:* Iv'e, Belarus 
@@ -11,7 +11,7 @@ ____
  *E-mail:* alexsanderhuryn@gmail.com
 
  *GitHub:* AlexsanderH30
- ## Personal information
+## Personal information
 
   ____
 My goal is to become a **Front-end developer**, willing to learn and put knowledge into practice.
