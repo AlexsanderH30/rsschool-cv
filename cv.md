@@ -1,12 +1,15 @@
-Aliaksander Huryn
+#Aliaksander Huryn
 
 ____
  ## Contact information
 
  ____
  *location:* Iv'e, Belarus 
+
  *Phone number:* +375447772906
+
  *E-mail:* alexsanderhuryn@gmail.com
+
  *GitHub:* AlexsanderH30
  ## Personal information
 
@@ -15,11 +18,13 @@ My goal is to become a **Front-end developer**, willing to learn and put knowled
 ## Skills
 
 ____
-*html 
-*css
-*js(First level) 
+###html 
 
+###css
 
+###js(First level) 
+
+## Code example
 ____
 ``` javaScript
 const task1 = (num1, num2)=>{
