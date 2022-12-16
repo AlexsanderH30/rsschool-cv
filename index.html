@@ -1,0 +1,118 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alexsander</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <nav class="nav">
+                    <ul class="list"> 
+                        <li class="li list__item"><a href="#contacts" class="list__link">contacts</a></li>
+                        <li class="li list__item"><a href="#skills" class="list__link">skills</a></li>
+                        <li class="li list__item"><a href="#course" class="list__link">course</a></li>
+                        <li class="li list__item"><a href="#languages" class="list__link">languages</a></li>
+                        <li class="li list__item"><a href="#code" class="list__link">code</a></li>
+                    </ul>
+                </nav>
+                <div class="header__content">
+                    <h1 class="header__title"> Alexsander Huryn <span>Front-End developer</span></h1>
+                    <img src="https://mobimg.b-cdn.net/v3/fetch/cc/cca0d186f448c1b5d002b5813618acc2.jpeg?h=900&r=0.5" alt="avatar" class="header__avatar">
+                </div>
+            </div>
+        </div>
+    </header>
+    <main class="main">
+        <section class="profile" id="profile">
+            <div class="container">
+                <h2 class="section__title">About me</h2>
+                <p class="section__text">I like to study and learn something new. I like to read books, do physical education.I lead active and healhy lifestyle. I like to work and see the results of my work.
+                </p>
+            </div>
+        </section>
+        <section class="contacts" id="contacts">
+            <div class="container">
+                <h2 class="section__title">CONTACTS</h2>
+                <ul class="contact__list">
+                    <li class="contact__item"><p class="contact__text">Discord: Alex(@AlexsanderH30) </p></li>
+                    <li class="contact__item"><p class="contact__text"> Email: Alexsanderhuryn@gmail.com </p></li>
+                    <li class="contact__item"><p class="contact__text">Address: Iv'e, Belarus </p></li>
+                </ul>
+            </div>
+        </section>
+        <section class="skills" id="skills">
+            <div class="container">
+                <h2 class="section__title">SKILLS</h2>
+                <ul class="skills__list">
+                    <li class="skills__item"><p class="skills__text">HTML,CSS3</p></li>
+                    <li class="skills__item"><p class="skills__text">JavaScript Basic</p></li>
+                    <li class="skills__item"><p class="skills__text">Git, Github</p></li>
+                </ul>
+            </div>
+        </section>
+        <section class="education" id="education">
+            <div class="container">
+                <h2 class="section__title">EDUCATION</h2>
+                <p class="section__text">Belarusian State Technological University</p>
+            </div>
+        </section>
+        <section class="course" id="course">
+            <div class="container">
+                <h2 class="section__title">COURSES</h2>
+                <p class="section__text">RS Schools "JavaScript/Front-end. Stage 0"</p>
+            </div>
+        </section>
+        <section class="projects" id="projects">
+            <div class="container">
+                <h2 class="section__title">Projects</h2>
+                <a href="https://alexsanderh30.github.io/rsschool-cv/cv" class="projects__link section__text">
+                    <img class="projects__img" src="https://st4.depositphotos.com/4060975/20029/v/600/depositphotos_200299526-stock-illustration-resume-writing-line-vector-icon.jpg" alt="cv">
+                    <p class="projects__text">Aliaksander Huryn</p>
+                </a>
+            </div>
+        </section>
+        <section class="code" id="code">
+            <div class="container">
+                <h2 class="section__title">CODE EXAMPLE</h2>
+                <p class="section__text"></p>
+                <code>
+                    function peak(arr) {
+                    
+                      for (let i = 1; i &lt; arr.length - 1; i++) {
+                        let leftSum = arr.slice(0, i).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);
+                        let rightSum = arr.slice(i + 1).reduce((accumulator, currentValue) =&gt; accumulator + currentValue);
+                    
+                        if (leftSum === rightSum) return i;
+                      }
+                      return -1;
+                    }</code>
+            </div>
+        </section>
+        <section class="languages" id="languages">
+            <div class="container">
+                <h2 class="section__title">LANGUAGES</h2>
+                <p class="section__text">ENGLISH A1</p>
+            </div>
+        </section>
+    </main>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <a class="my-github" href="https://github.com/AlexsanderH30">
+                    <img class="github-icon" src="./images/github.png" alt="Github Icon" width="26" height="26">
+                    <span>Visit my GitHub</span>
+                </a>
+                <p>© 2022</p>
+                <a class="navbar-brand" href="https://rs.school/">
+                    <img src="./images/rs_school_js.svg" alt="RS Logo">
+                </a>
+            </div>
+        </div>
+    </footer>
+</body>
+</html>
